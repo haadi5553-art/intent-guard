@@ -85,3 +85,6 @@ What to take from it:
 | `VIVA.md` | viva preparation notes |
 
 BIPIA: Yi et al., "Benchmarking and Defending Against Indirect Prompt Injection Attacks on LLMs", MIT licence (`data/bipia/LICENSE`).
+
+Author: Abdul Hadi, 2025(S)-CYS-90
+AI assistance: the code and report were written with help from Claude; I reviewed and ran everything.
