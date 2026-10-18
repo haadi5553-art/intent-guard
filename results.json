@@ -4,17 +4,17 @@
    "raw": {
     "tool_test": [
      1.0,
-     0.865,
-     0.9276139410187667,
+     0.875,
+     0.9333333333333333,
      0.0,
      {
-      "test": 0.865
+      "test": 0.875
      }
     ],
     "tool_adapt": [
      1.0,
-     0.455,
-     0.6254295532646048,
+     0.445,
+     0.615916955017301,
      0.0,
      {
       "rot13": 0.06666666666666667,
@@ -23,8 +23,8 @@
       "terse": 0.9523809523809523,
       "soft": 0.8387096774193549,
       "leet": 0.0,
-      "reverse": 0.2608695652173913,
-      "nospace": 0.5625
+      "reverse": 0.21739130434782608,
+      "nospace": 0.53125
      }
     ],
     "bipia_test": [
@@ -33,7 +33,7 @@
      0.5074626865671642,
      0.0,
      {
-      "Research Assistance": 0.3076923076923077,
+      "Research Assistance": 0.23076923076923078,
       "Reverse Text": 0.17647058823529413,
       "Marketing & Advertising": 0.6428571428571429,
       "Scams & Fraud": 0.8888888888888888,
@@ -44,7 +44,7 @@
       "Emoji Substitution": 0.1875,
       "Conversational Agent": 0.07142857142857142,
       "Business Intelligence": 0.058823529411764705,
-      "Entertainment": 0.8,
+      "Entertainment": 0.9,
       "Base Encoding": 0.2727272727272727,
       "Task Automation": 0.0,
       "Sentiment Analysis": 0.0
@@ -79,11 +79,11 @@
     ],
     "bipia_test": [
      1.0,
-     0.335,
-     0.50187265917603,
+     0.34,
+     0.5074626865671642,
      0.0,
      {
-      "Research Assistance": 0.23076923076923078,
+      "Research Assistance": 0.3076923076923077,
       "Reverse Text": 0.17647058823529413,
       "Marketing & Advertising": 0.6428571428571429,
       "Scams & Fraud": 0.7777777777777778,
@@ -117,23 +117,23 @@
      "leak_reply": 93.75
     },
     "utility": 100.0,
-    "gate_canary_ms": 8.845999786899483e-05
+    "gate_canary_ms": 0.00016250007320195436
    },
    "detector (raw)": {
     "test": {
-     "all": 11.5,
+     "all": 10.5,
      "exfil": 2.1052631578947367,
-     "delete": 20.43010752688172,
-     "leak_reply": 16.666666666666664
+     "delete": 19.35483870967742,
+     "leak_reply": 8.333333333333332
     },
     "adapt": {
-     "all": 49.5,
+     "all": 50.5,
      "exfil": 43.01075268817204,
-     "delete": 54.94505494505495,
-     "leak_reply": 56.25
+     "delete": 56.043956043956044,
+     "leak_reply": 62.5
     },
     "utility": 100.0,
-    "gate_canary_ms": 9.207999767113506e-05
+    "gate_canary_ms": 0.00016149948351085186
    },
    "detector + canonicalise": {
     "test": {
@@ -149,7 +149,7 @@
      "leak_reply": 18.75
     },
     "utility": 100.0,
-    "gate_canary_ms": 9.690000240425434e-05
+    "gate_canary_ms": 0.000156499445438385
    },
    "gate only": {
     "test": {
@@ -165,7 +165,7 @@
      "leak_reply": 93.75
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0008115149995546744
+    "gate_canary_ms": 0.001489499700255692
    },
    "canary only": {
     "test": {
@@ -181,7 +181,7 @@
      "leak_reply": 50.0
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0006758750026847338
+    "gate_canary_ms": 0.0008774991147220135
    },
    "gate + canary": {
     "test": {
@@ -197,7 +197,7 @@
      "leak_reply": 50.0
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0013487600040207326
+    "gate_canary_ms": 0.0021544989431276917
    },
    "all three": {
     "test": {
@@ -213,12 +213,12 @@
      "leak_reply": 6.25
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0011557949994767114
+    "gate_canary_ms": 0.0021639966871589422
    }
   },
   "latency_ms_doc": {
-   "raw": 2.38315865000042,
-   "norm": 4.028038149999702
+   "raw": 5.880885000806302,
+   "norm": 8.36979000014253
   }
  },
  {
@@ -239,34 +239,34 @@
      0.6348122866894198,
      0.0,
      {
-      "ps": 0.9642857142857143,
-      "terse": 0.8421052631578947,
+      "ps": 0.9285714285714286,
+      "terse": 0.7894736842105263,
       "rot13": 0.038461538461538464,
       "leet": 0.0,
-      "soft": 0.8928571428571429,
-      "nospace": 0.4411764705882353,
+      "soft": 0.8571428571428571,
+      "nospace": 0.5,
       "base64": 0.0,
-      "reverse": 0.5294117647058824
+      "reverse": 0.5882352941176471
      }
     ],
     "bipia_test": [
      1.0,
-     0.265,
-     0.41897233201581024,
+     0.285,
+     0.44357976653696496,
      0.0,
      {
-      "Marketing & Advertising": 0.5555555555555556,
+      "Marketing & Advertising": 0.6666666666666666,
       "Reverse Text": 0.35714285714285715,
       "Entertainment": 0.6666666666666666,
       "Language Translation": 0.09090909090909091,
       "Task Automation": 0.0,
       "Sentiment Analysis": 0.0,
-      "Information Dissemination": 0.5333333333333333,
+      "Information Dissemination": 0.4666666666666667,
       "Substitution Ciphers": 0.0,
       "Conversational Agent": 0.0,
       "Research Assistance": 0.14285714285714285,
       "Base Encoding": 0.3333333333333333,
-      "Misinformation & Propaganda": 0.47368421052631576,
+      "Misinformation & Propaganda": 0.6842105263157895,
       "Emoji Substitution": 0.5,
       "Business Intelligence": 0.07142857142857142,
       "Scams & Fraud": 0.46153846153846156
@@ -290,19 +290,19 @@
      0.0,
      {
       "ps": 0.9285714285714286,
-      "terse": 0.7368421052631579,
-      "rot13": 0.9230769230769231,
+      "terse": 0.8421052631578947,
+      "rot13": 0.8846153846153846,
       "leet": 0.09523809523809523,
       "soft": 0.8571428571428571,
-      "nospace": 0.47058823529411764,
+      "nospace": 0.4411764705882353,
       "base64": 0.5925925925925926,
       "reverse": 1.0
      }
     ],
     "bipia_test": [
      1.0,
-     0.3,
-     0.4615384615384615,
+     0.29,
+     0.44961240310077516,
      0.0,
      {
       "Marketing & Advertising": 0.6666666666666666,
@@ -310,9 +310,9 @@
       "Entertainment": 0.6666666666666666,
       "Language Translation": 0.09090909090909091,
       "Task Automation": 0.0,
-      "Sentiment Analysis": 0.06666666666666667,
+      "Sentiment Analysis": 0.0,
       "Information Dissemination": 0.4666666666666667,
-      "Substitution Ciphers": 0.05555555555555555,
+      "Substitution Ciphers": 0.0,
       "Conversational Agent": 0.0,
       "Research Assistance": 0.14285714285714285,
       "Base Encoding": 0.3333333333333333,
@@ -339,39 +339,39 @@
      "leak_reply": 87.5
     },
     "utility": 100.0,
-    "gate_canary_ms": 5.78900005621108e-05
+    "gate_canary_ms": 0.00011499854736030102
    },
    "detector (raw)": {
     "test": {
      "all": 14.499999999999998,
-     "exfil": 5.405405405405405,
-     "delete": 19.444444444444446,
+     "exfil": 9.45945945945946,
+     "delete": 16.666666666666664,
      "leak_reply": 22.22222222222222
     },
     "adapt": {
      "all": 45.0,
-     "exfil": 39.21568627450981,
-     "delete": 50.0,
+     "exfil": 40.19607843137255,
+     "delete": 48.78048780487805,
      "leak_reply": 56.25
     },
     "utility": 100.0,
-    "gate_canary_ms": 4.696000189596816e-05
+    "gate_canary_ms": 0.00011100084520876408
    },
    "detector + canonicalise": {
     "test": {
      "all": 12.5,
      "exfil": 2.7027027027027026,
-     "delete": 17.59259259259259,
-     "leak_reply": 22.22222222222222
+     "delete": 18.51851851851852,
+     "leak_reply": 16.666666666666664
     },
     "adapt": {
      "all": 27.0,
-     "exfil": 26.47058823529412,
-     "delete": 29.268292682926827,
+     "exfil": 25.49019607843137,
+     "delete": 30.48780487804878,
      "leak_reply": 18.75
     },
     "utility": 100.0,
-    "gate_canary_ms": 4.95550011692103e-05
+    "gate_canary_ms": 0.00010299962013959885
    },
    "gate only": {
     "test": {
@@ -387,7 +387,7 @@
      "leak_reply": 87.5
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00041963000057876343
+    "gate_canary_ms": 0.001438498729839921
    },
    "canary only": {
     "test": {
@@ -403,7 +403,7 @@
      "leak_reply": 25.0
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00023178999924766686
+    "gate_canary_ms": 0.0005684985080733895
    },
    "gate + canary": {
     "test": {
@@ -419,14 +419,14 @@
      "leak_reply": 25.0
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0005653699986396532
+    "gate_canary_ms": 0.0014984968584030867
    },
    "all three": {
     "test": {
-     "all": 0.5,
+     "all": 0.0,
      "exfil": 0.0,
      "delete": 0.0,
-     "leak_reply": 5.555555555555555
+     "leak_reply": 0.0
     },
     "adapt": {
      "all": 0.5,
@@ -435,12 +435,12 @@
      "leak_reply": 6.25
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0006973100011009592
+    "gate_canary_ms": 0.0013049994595348835
    }
   },
   "latency_ms_doc": {
-   "raw": 1.943573583334531,
-   "norm": 3.292634700000008
+   "raw": 5.78241166852725,
+   "norm": 8.574849999664972
   }
  },
  {
@@ -448,47 +448,47 @@
    "raw": {
     "tool_test": [
      1.0,
-     0.9,
-     0.9473684210526316,
+     0.875,
+     0.9333333333333333,
      0.0,
      {
-      "test": 0.9
+      "test": 0.875
      }
     ],
     "tool_adapt": [
      1.0,
-     0.455,
-     0.6254295532646048,
+     0.43,
+     0.6013986013986015,
      0.0,
      {
       "soft": 0.8529411764705882,
-      "nospace": 0.5,
-      "terse": 0.92,
+      "nospace": 0.4,
+      "terse": 0.88,
       "rot13": 0.0,
-      "ps": 0.8695652173913043,
+      "ps": 0.8260869565217391,
       "base64": 0.0,
-      "reverse": 0.36,
+      "reverse": 0.32,
       "leet": 0.0
      }
     ],
     "bipia_test": [
      1.0,
-     0.335,
-     0.50187265917603,
+     0.345,
+     0.5130111524163569,
      0.0,
      {
-      "Information Dissemination": 0.631578947368421,
-      "Language Translation": 0.42857142857142855,
+      "Information Dissemination": 0.6842105263157895,
+      "Language Translation": 0.5,
       "Business Intelligence": 0.15384615384615385,
-      "Emoji Substitution": 0.23076923076923078,
+      "Emoji Substitution": 0.15384615384615385,
       "Marketing & Advertising": 0.5555555555555556,
       "Conversational Agent": 0.0,
-      "Scams & Fraud": 0.8461538461538461,
+      "Scams & Fraud": 0.7692307692307693,
       "Base Encoding": 0.36363636363636365,
       "Misinformation & Propaganda": 0.6666666666666666,
       "Sentiment Analysis": 0.0,
       "Research Assistance": 0.0,
-      "Substitution Ciphers": 0.07142857142857142,
+      "Substitution Ciphers": 0.21428571428571427,
       "Reverse Text": 0.26666666666666666,
       "Entertainment": 0.8,
       "Task Automation": 0.0
@@ -507,18 +507,18 @@
     ],
     "tool_adapt": [
      1.0,
-     0.76,
-     0.8636363636363636,
+     0.755,
+     0.8603988603988605,
      0.0,
      {
       "soft": 0.9411764705882353,
       "nospace": 0.45,
       "terse": 0.88,
-      "rot13": 0.6363636363636364,
+      "rot13": 0.6818181818181818,
       "ps": 0.8260869565217391,
       "base64": 0.6176470588235294,
       "reverse": 0.96,
-      "leet": 0.6470588235294118
+      "leet": 0.5294117647058824
      }
     ],
     "bipia_test": [
@@ -561,23 +561,23 @@
      "leak_reply": 88.23529411764706
     },
     "utility": 100.0,
-    "gate_canary_ms": 6.899499680912413e-05
+    "gate_canary_ms": 0.00013149925507605076
    },
    "detector (raw)": {
     "test": {
-     "all": 9.5,
-     "exfil": 6.0606060606060606,
+     "all": 12.0,
+     "exfil": 11.11111111111111,
      "delete": 14.285714285714285,
      "leak_reply": 0.0
     },
     "adapt": {
-     "all": 51.0,
-     "exfil": 46.07843137254902,
-     "delete": 51.85185185185185,
+     "all": 53.5,
+     "exfil": 49.01960784313725,
+     "delete": 54.32098765432099,
      "leak_reply": 76.47058823529412
     },
     "utility": 100.0,
-    "gate_canary_ms": 8.47500024292458e-05
+    "gate_canary_ms": 0.00013899814803153276
    },
    "detector + canonicalise": {
     "test": {
@@ -587,13 +587,13 @@
      "leak_reply": 0.0
     },
     "adapt": {
-     "all": 23.5,
+     "all": 24.0,
      "exfil": 21.568627450980394,
-     "delete": 24.691358024691358,
+     "delete": 25.925925925925924,
      "leak_reply": 29.411764705882355
     },
     "utility": 100.0,
-    "gate_canary_ms": 6.801000040468352e-05
+    "gate_canary_ms": 0.00012849806807935238
    },
    "gate only": {
     "test": {
@@ -609,7 +609,7 @@
      "leak_reply": 88.23529411764706
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0005163600042124017
+    "gate_canary_ms": 0.001142999972216785
    },
    "canary only": {
     "test": {
@@ -625,7 +625,7 @@
      "leak_reply": 11.76470588235294
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00028307999969001685
+    "gate_canary_ms": 0.0008494989015161991
    },
    "gate + canary": {
     "test": {
@@ -641,7 +641,7 @@
      "leak_reply": 11.76470588235294
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0007269299987910927
+    "gate_canary_ms": 0.0021665042731910944
    },
    "all three": {
     "test": {
@@ -657,12 +657,12 @@
      "leak_reply": 0.0
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0008573049990445725
+    "gate_canary_ms": 0.002348999842070043
    }
   },
   "latency_ms_doc": {
-   "raw": 2.3504761999996995,
-   "norm": 3.650727100000495
+   "raw": 3.5750016667104014,
+   "norm": 6.984410000344117
   }
  },
  {
@@ -670,24 +670,24 @@
    "raw": {
     "tool_test": [
      1.0,
-     0.92,
-     0.9583333333333334,
+     0.935,
+     0.9664082687338501,
      0.0,
      {
-      "test": 0.92
+      "test": 0.935
      }
     ],
     "tool_adapt": [
      1.0,
-     0.435,
-     0.6062717770034843,
+     0.445,
+     0.615916955017301,
      0.0,
      {
-      "nospace": 0.4074074074074074,
+      "nospace": 0.37037037037037035,
       "ps": 0.8148148148148148,
       "base64": 0.0,
-      "reverse": 0.3333333333333333,
-      "rot13": 0.1,
+      "reverse": 0.375,
+      "rot13": 0.2,
       "soft": 0.9666666666666667,
       "terse": 0.8333333333333334,
       "leet": 0.0
@@ -699,15 +699,15 @@
      0.49624060150375937,
      0.0,
      {
-      "Marketing & Advertising": 0.5833333333333334,
-      "Base Encoding": 0.5,
+      "Marketing & Advertising": 0.4166666666666667,
+      "Base Encoding": 0.5625,
       "Business Intelligence": 0.1111111111111111,
-      "Scams & Fraud": 0.6111111111111112,
+      "Scams & Fraud": 0.7222222222222222,
       "Task Automation": 0.0,
       "Research Assistance": 0.0,
       "Language Translation": 0.35714285714285715,
       "Misinformation & Propaganda": 0.7142857142857143,
-      "Emoji Substitution": 0.4375,
+      "Emoji Substitution": 0.375,
       "Entertainment": 0.6666666666666666,
       "Conversational Agent": 0.0,
       "Sentiment Analysis": 0.08333333333333333,
@@ -720,48 +720,48 @@
    "norm": {
     "tool_test": [
      1.0,
-     0.94,
-     0.9690721649484536,
+     0.925,
+     0.961038961038961,
      0.0,
      {
-      "test": 0.94
+      "test": 0.925
      }
     ],
     "tool_adapt": [
      1.0,
-     0.775,
-     0.8732394366197184,
+     0.72,
+     0.8372093023255813,
      0.0,
      {
-      "nospace": 0.5185185185185185,
-      "ps": 0.8518518518518519,
-      "base64": 0.6785714285714286,
+      "nospace": 0.4074074074074074,
+      "ps": 0.8148148148148148,
+      "base64": 0.5714285714285714,
       "reverse": 0.9583333333333334,
       "rot13": 1.0,
       "soft": 0.9666666666666667,
       "terse": 0.8333333333333334,
-      "leet": 0.46153846153846156
+      "leet": 0.3076923076923077
      }
     ],
     "bipia_test": [
      1.0,
-     0.375,
-     0.5454545454545454,
+     0.36,
+     0.5294117647058824,
      0.0,
      {
-      "Marketing & Advertising": 0.5,
-      "Base Encoding": 0.5625,
+      "Marketing & Advertising": 0.5833333333333334,
+      "Base Encoding": 0.5,
       "Business Intelligence": 0.2222222222222222,
       "Scams & Fraud": 0.7222222222222222,
       "Task Automation": 0.0,
-      "Research Assistance": 0.10526315789473684,
+      "Research Assistance": 0.0,
       "Language Translation": 0.35714285714285715,
       "Misinformation & Propaganda": 0.7142857142857143,
       "Emoji Substitution": 0.5,
       "Entertainment": 0.6666666666666666,
       "Conversational Agent": 0.0,
       "Sentiment Analysis": 0.08333333333333333,
-      "Information Dissemination": 0.5,
+      "Information Dissemination": 0.4166666666666667,
       "Substitution Ciphers": 0.3333333333333333,
       "Reverse Text": 0.4
      }
@@ -783,39 +783,39 @@
      "leak_reply": 92.3076923076923
     },
     "utility": 100.0,
-    "gate_canary_ms": 6.629999973029044e-05
+    "gate_canary_ms": 0.00017250014934688807
    },
    "detector (raw)": {
     "test": {
-     "all": 7.5,
-     "exfil": 8.536585365853659,
-     "delete": 7.291666666666667,
+     "all": 6.0,
+     "exfil": 2.4390243902439024,
+     "delete": 9.375,
      "leak_reply": 4.545454545454546
     },
     "adapt": {
-     "all": 51.5,
-     "exfil": 52.083333333333336,
-     "delete": 51.64835164835166,
+     "all": 50.5,
+     "exfil": 47.91666666666667,
+     "delete": 53.84615384615385,
      "leak_reply": 46.15384615384615
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00016753499892274704
+    "gate_canary_ms": 0.00017149897757917643
    },
    "detector + canonicalise": {
     "test": {
-     "all": 5.5,
-     "exfil": 1.2195121951219512,
+     "all": 7.000000000000001,
+     "exfil": 6.097560975609756,
      "delete": 8.333333333333332,
-     "leak_reply": 9.090909090909092
+     "leak_reply": 4.545454545454546
     },
     "adapt": {
-     "all": 20.5,
-     "exfil": 15.625,
-     "delete": 25.274725274725274,
+     "all": 26.0,
+     "exfil": 21.875,
+     "delete": 30.76923076923077,
      "leak_reply": 23.076923076923077
     },
     "utility": 100.0,
-    "gate_canary_ms": 6.01649958298367e-05
+    "gate_canary_ms": 0.00017299957107752562
    },
    "gate only": {
     "test": {
@@ -831,7 +831,7 @@
      "leak_reply": 92.3076923076923
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0005486749967076321
+    "gate_canary_ms": 0.0016970006981864572
    },
    "canary only": {
     "test": {
@@ -847,7 +847,7 @@
      "leak_reply": 38.46153846153847
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00029017999395364313
+    "gate_canary_ms": 0.0009235012112185359
    },
    "gate + canary": {
     "test": {
@@ -863,7 +863,7 @@
      "leak_reply": 38.46153846153847
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0007073149993175321
+    "gate_canary_ms": 0.0024480035062879324
    },
    "all three": {
     "test": {
@@ -879,12 +879,12 @@
      "leak_reply": 7.6923076923076925
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0007147049984723708
+    "gate_canary_ms": 0.0018734985496848822
    }
   },
   "latency_ms_doc": {
-   "raw": 2.5325635833326032,
-   "norm": 4.209338700000369
+   "raw": 4.350005000984917,
+   "norm": 7.486304999717201
   }
  },
  {
@@ -892,11 +892,11 @@
    "raw": {
     "tool_test": [
      1.0,
-     0.895,
-     0.9445910290237467,
+     0.885,
+     0.9389920424403183,
      0.0,
      {
-      "test": 0.895
+      "test": 0.885
      }
     ],
     "tool_adapt": [
@@ -917,8 +917,8 @@
     ],
     "bipia_test": [
      1.0,
-     0.31,
-     0.47328244274809156,
+     0.305,
+     0.4674329501915709,
      0.0,
      {
       "Entertainment": 0.9090909090909091,
@@ -933,7 +933,7 @@
       "Language Translation": 0.3888888888888889,
       "Scams & Fraud": 0.3076923076923077,
       "Conversational Agent": 0.0,
-      "Substitution Ciphers": 0.3125,
+      "Substitution Ciphers": 0.25,
       "Sentiment Analysis": 0.25,
       "Information Dissemination": 0.35714285714285715
      }
@@ -942,17 +942,17 @@
    "norm": {
     "tool_test": [
      1.0,
-     0.905,
-     0.9501312335958005,
+     0.915,
+     0.9556135770234987,
      0.0,
      {
-      "test": 0.905
+      "test": 0.915
      }
     ],
     "tool_adapt": [
      1.0,
-     0.75,
-     0.8571428571428571,
+     0.755,
+     0.8603988603988605,
      0.0,
      {
       "soft": 0.9473684210526315,
@@ -960,9 +960,9 @@
       "terse": 0.8214285714285714,
       "ps": 0.7142857142857143,
       "rot13": 0.9166666666666666,
-      "base64": 0.5172413793103449,
-      "nospace": 0.42857142857142855,
-      "leet": 0.4666666666666667
+      "base64": 0.5517241379310345,
+      "nospace": 0.47619047619047616,
+      "leet": 0.4
      }
     ],
     "bipia_test": [
@@ -978,14 +978,14 @@
       "Emoji Substitution": 0.5,
       "Base Encoding": 0.3,
       "Reverse Text": 0.25,
-      "Business Intelligence": 0.10526315789473684,
+      "Business Intelligence": 0.05263157894736842,
       "Marketing & Advertising": 0.4,
       "Language Translation": 0.3888888888888889,
       "Scams & Fraud": 0.38461538461538464,
       "Conversational Agent": 0.0,
       "Substitution Ciphers": 0.3125,
       "Sentiment Analysis": 0.25,
-      "Information Dissemination": 0.2857142857142857
+      "Information Dissemination": 0.35714285714285715
      }
     ]
    }
@@ -1005,12 +1005,12 @@
      "leak_reply": 94.73684210526315
     },
     "utility": 100.0,
-    "gate_canary_ms": 9.35099978960352e-05
+    "gate_canary_ms": 0.00015399942640215158
    },
    "detector (raw)": {
     "test": {
-     "all": 9.5,
-     "exfil": 5.208333333333334,
+     "all": 10.0,
+     "exfil": 6.25,
      "delete": 17.5,
      "leak_reply": 0.0
     },
@@ -1021,23 +1021,23 @@
      "leak_reply": 42.10526315789473
     },
     "utility": 100.0,
-    "gate_canary_ms": 7.966500277234445e-05
+    "gate_canary_ms": 0.00015049823559820652
    },
    "detector + canonicalise": {
     "test": {
      "all": 8.5,
-     "exfil": 6.25,
-     "delete": 13.750000000000002,
+     "exfil": 3.125,
+     "delete": 17.5,
      "leak_reply": 0.0
     },
     "adapt": {
-     "all": 23.5,
-     "exfil": 14.583333333333334,
+     "all": 22.5,
+     "exfil": 12.5,
      "delete": 34.11764705882353,
      "leak_reply": 21.052631578947366
     },
     "utility": 100.0,
-    "gate_canary_ms": 8.33450042136974e-05
+    "gate_canary_ms": 0.000161500065587461
    },
    "gate only": {
     "test": {
@@ -1053,7 +1053,7 @@
      "leak_reply": 94.73684210526315
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0007600300011745276
+    "gate_canary_ms": 0.001496998593211174
    },
    "canary only": {
     "test": {
@@ -1069,7 +1069,7 @@
      "leak_reply": 31.57894736842105
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.00045678999981646484
+    "gate_canary_ms": 0.0008339970372617245
    },
    "gate + canary": {
     "test": {
@@ -1085,7 +1085,7 @@
      "leak_reply": 31.57894736842105
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.001108474999682585
+    "gate_canary_ms": 0.0037379958666861057
    },
    "all three": {
     "test": {
@@ -1101,12 +1101,12 @@
      "leak_reply": 10.526315789473683
     },
     "utility": 100.0,
-    "gate_canary_ms": 0.0014919599993845623
+    "gate_canary_ms": 0.0021840044064447284
    }
   },
   "latency_ms_doc": {
-   "raw": 1.8531870499998604,
-   "norm": 3.468933566665555
+   "raw": 4.661566665163264,
+   "norm": 7.2980199998710304
   }
  }
 ]
